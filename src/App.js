@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
 
     this.state = {
@@ -25,7 +25,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            The quick brown fox
+            The quick brown fox jumps over the lazy dog!
           </a>
         </header>
       </div>
