@@ -1,0 +1,15 @@
+@media (min-width: 992px) {
+    .page-home {
+        height: 100vh;
+        min-height: 40rem;
+        padding-bottom: 0;
+    }
+}
+
+.page-home {
+    background: url(../assets/imgs/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
