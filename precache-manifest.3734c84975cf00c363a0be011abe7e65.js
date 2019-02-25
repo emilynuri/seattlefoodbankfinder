@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/seattlefoodbankfinder/static/js/runtime~main.4387aa3d.js"
   },
   {
-    "revision": "3703aa36b394a842a1b6",
-    "url": "/seattlefoodbankfinder/static/js/main.3703aa36.chunk.js"
+    "revision": "008bca71e1d582659c74",
+    "url": "/seattlefoodbankfinder/static/js/main.008bca71.chunk.js"
   },
   {
     "revision": "4e7aa02e8cba33702af0",
     "url": "/seattlefoodbankfinder/static/js/2.4e7aa02e.chunk.js"
   },
   {
-    "revision": "3703aa36b394a842a1b6",
+    "revision": "008bca71e1d582659c74",
     "url": "/seattlefoodbankfinder/static/css/main.2c600f0a.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/seattlefoodbankfinder/static/css/2.5fa23089.chunk.css"
   },
   {
-    "revision": "695a6a2e5793238af80762a6c9627c13",
+    "revision": "e88ddc2bdfa8d2f60998ddf3e0138d27",
     "url": "/seattlefoodbankfinder/index.html"
   }
 ];
