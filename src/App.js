@@ -25,7 +25,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            The quick black fox jumps over the lazy dog!
+            The quick blue fox jumps over the lazy dog!
           </a>
         </header>
       </div>
