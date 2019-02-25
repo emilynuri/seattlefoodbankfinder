@@ -15,6 +15,7 @@
     "react-scripts": "2.1.5",
     "reactstrap": "^7.1.0"
   },
+  "homepage": "https://emilynuri.github.io/seattlefoodbankfinder",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
