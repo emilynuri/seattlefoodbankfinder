@@ -1,5 +1,6 @@
 import React from 'react';
 import './SubNavigation.css';
+import {Link} from 'react-router';
 
 class SubNavigation extends React.Component {
 
@@ -10,19 +11,19 @@ class SubNavigation extends React.Component {
                     <div class="nav-buttons">
                         <ul class="navbar-nav ml-auto my-2 my-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="/">Home</a>
+                                <Link class="nav-link js-scroll-trigger" to="/">Home</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="about">About</a>
+                                <Link class="nav-link js-scroll-trigger" to="/about">About</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="services">Find a food bank</a>
+                                <Link class="nav-link js-scroll-trigger" to="/find">Find a food bank</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="community">Community</a>
+                                <Link class="nav-link js-scroll-trigger" to="/community">Community</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="contact">Contact</a>
+                                <Link class="nav-link js-scroll-trigger" to="/contact">Contact</Link>
                             </li>
                         </ul>
                     </div>

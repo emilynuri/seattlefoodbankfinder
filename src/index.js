@@ -7,6 +7,7 @@ import Home from './containers/Home';
 import About from './containers/About';
 import Contact from './containers/Contact';
 import Community from './containers/Community';
+import Find from './containers/Find';
 
 import * as serviceWorker from './serviceWorker';
 
@@ -15,11 +16,12 @@ import './index.css';
 
 ReactDOM.render(
     <Router history={browserHistory}>
-        <Route path="/" component={App}>
+        <Route path={process.env.PUBLIC_URL+'/'} component={App}>
             <IndexRoute component={Home} />
             <Route path="about" component={About} />
             <Route path="contact" component={Contact} />
             <Route path="community" component={Community} />
+            <Route path="find" component={Find} />
         </Route>
     </Router>,
     document.getElementById('root')
