@@ -17,7 +17,7 @@ const Home = () => {
                         </div>
                         <div class="col-lg-8 align-self-baseline">
                             <h4 class="text-white-75 font-weight-light py-5 text-white">
-                                Aiming to tackle Seattle's ever-increasing homelessness crisis by easing the process of finding a suitable food bank for Great Seattle Residents
+                                Aiming to tackle Seattle's ever-increasing homelessness crisis by easing the process of finding a suitable food bank for Greater Seattle Residents
                         </h4>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ const Home = () => {
                         </p>
                     </div>
                     <div class="col-md-6">
-                        <img class="w-100" src="imgs/bg-foodbank.jpg" />
+                        <img class="w-75" src="imgs/bg-foodbank.jpg" />
                     </div>
                 </div>
 

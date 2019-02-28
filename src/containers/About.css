@@ -1,4 +1,39 @@
 .page-about {
     min-height: 100vh;
     margin-top: 5rem;
+    display: flex;
+}
+
+.about-left{
+  background-color: blue;
+  display: inline-flex;
+  width: 50%;
+}
+
+.about-right{
+  background-color: green;
+  display: inline-flex;
+  width: 50%;
+}
+
+.about-left-content{
+    width: 100%;
+    background-color: white;
+    margin-top: 130px;
+    margin-bottom: 100px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.about-left-content p{
+  color:grey;
+}
+
+
+.about-right-content{
+  width: 100%;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
