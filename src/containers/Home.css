@@ -13,3 +13,13 @@
     background-attachment: scroll;
     background-size: cover;
 }
+
+.col-md-6 p, h2{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.col-md-4 p, h4{
+  padding-left: 50px;
+  padding-right: 50px;
+}

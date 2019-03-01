@@ -30,9 +30,9 @@ const Home = () => {
 
                 <div class="row">
                     <div class="col-md-6">
-                        <h1 class="mb-4">
+                        <h2 class="mb-4">
                             What We Offer
-                        </h1>
+                        </h2>
                         <p>
                             We allow the residents of the Greater Seattle area to find food banks best suited for what they are trying to accomplish from a donation standpoint. We aim take away the hassle of finding, contacting and coordinating the logistics of donating food to a food bank.
                         </p>
@@ -73,7 +73,7 @@ const Home = () => {
                             CONTACT
     </h4>
                         <p>
-                            Follow us on Facebook, Twitter, and Instagram
+                            Help us spread the word and follow us on Facebook, Twitter, and Instagram
     </p>
                     </div>
                 </div>
