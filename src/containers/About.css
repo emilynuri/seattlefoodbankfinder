@@ -5,35 +5,60 @@
 }
 
 .about-left{
-  background-color: blue;
   display: inline-flex;
   width: 50%;
 }
 
 .about-right{
-  background-color: green;
   display: inline-flex;
   width: 50%;
 }
 
 .about-left-content{
     width: 100%;
-    background-color: white;
-    margin-top: 130px;
-    margin-bottom: 100px;
+    background-color: #E0E0E0;
+    margin-top: 175px;
+    margin-bottom: 170px;
     margin-left: 110px;
     margin-right: 110px;
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 25px;
 }
 
 .about-left-content p{
-  color:grey;
+  padding-top: 20px;
+  color:#606060;
+  padding-bottom: 15px;
 }
 
+.about-left-content h3{
+  padding-top: 20px;
+  color:#404040;
+}
+
+.about-right-content p{
+  color:#606060;
+  padding-bottom: 15px;
+}
+
+.about-right-content h3{
+  color:#404040;
+}
+
+.about-right-content h1{
+  color:	#181818;
+  padding-bottom: 30px;
+}
 
 .about-right-content{
   width: 100%;
-    background-color: red;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 40px;
+  padding-right: 45px;
+  padding-bottom: 30px;
+  padding-left: 45px;
 }
