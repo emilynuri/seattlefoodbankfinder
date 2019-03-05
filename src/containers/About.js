@@ -19,7 +19,7 @@ const About = () => {
                   </div>
                   <div class ="about-right">
                     <div class ="about-right-content">
-                    <h1>ABOUT US</h1>
+                    <h1>About Us</h1>
                     <h3>Overview</h3>
                     <p>Seattle Food Bank Finder started when the founders came to the realization about how hard it was to find a suitable food bank in Seattle. There are several food banks all over Seattle, who serve different communities, take in various types of food donations, are open during different times and days of the week, but there is not one place where a resident can filter out these variables and find the best suited food bank for them. At Seattle Food Bank Finder, we want to make it easy for the Greater Seattle community to find and donate to a food bank.</p>
                     <h3>Who We Are </h3>

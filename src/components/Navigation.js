@@ -11,16 +11,16 @@ class Navigation extends React.Component {
                     <div class="nav-buttons">
                         <ul class="navbar-nav ml-auto my-2 my-lg-0">
                             <li class="nav-item">
-                                <Link class="nav-link js-scroll-trigger" to="/about">About</Link>
+                                <Link class="nav-link js-scroll-trigger" to={process.env.PUBLIC_URL+'/about'}>About</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link js-scroll-trigger" to="/find">Find a food bank</Link>
+                                <Link class="nav-link js-scroll-trigger" to={process.env.PUBLIC_URL+'/find'}>Find a food bank</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link js-scroll-trigger" to="/community">Community</Link>
+                                <Link class="nav-link js-scroll-trigger" to={process.env.PUBLIC_URL+'/community'}>Community</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link js-scroll-trigger" to="/contact">Contact</Link>
+                                <Link class="nav-link js-scroll-trigger" to={process.env.PUBLIC_URL+'/contact'}>Contact</Link>
                             </li>
                         </ul>
                     </div>

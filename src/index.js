@@ -18,7 +18,7 @@ ReactDOM.render(
     <Router history={browserHistory}>
         <Route path={process.env.PUBLIC_URL+'/'} component={App}>
             <IndexRoute component={Home} />
-            <Route path={process.env.PUBLIC_URL+'/about'} component={About} />
+            <Route path="about" component={About} />
             <Route path="contact" component={Contact} />
             <Route path="community" component={Community} />
             <Route path="find" component={Find} />
