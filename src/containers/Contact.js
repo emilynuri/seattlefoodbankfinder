@@ -12,7 +12,7 @@ const Contact = () => {
                     <div class ="contact-content">
                       <div class ="contact-top-content">
                         <h1>Contact Us</h1>
-                        <h5>Please contact us with any questions or feedback and we will try to get back to you as soon as we can!</h5>
+                        <h6>Please contact us with any questions or feedback and we will try to get back to you as soon as we can!</h6>
                       </div>
                       <div class ="contact-bottom-content">
                         <form class="contact-form">
