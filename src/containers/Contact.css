@@ -20,7 +20,7 @@
     text-align: center;
 }
 
-.contact-top-content h6 {
+.contact-top-content h5 {
     text-align: center;
     padding-left: 350px;
     padding-right: 350px;
@@ -37,7 +37,7 @@
 }
 
 
-.contact-form input{
+.contact-form input[type="text"]{
   display: inline-flex;
   width: 48%;
   margin-bottom: 30px;
@@ -50,6 +50,7 @@
   width: 80%;
   margin: 0 auto;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .contact-form textarea{
@@ -57,13 +58,14 @@
   margin-bottom: 30px;
 }
 
-.submit-button input{
-  width: 100%;
+.submit-button{
   background-color: #282828;
   color: white;
   padding-top:10px;
   padding-bottom:10px;
-  padding-left:50px;
-  padding-right:50px;
+  padding-left:55px;
+  padding-right:55px;
   font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
 }
