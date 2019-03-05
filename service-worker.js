@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/seattlefoodbankfinder/precache-manifest.43a435297d5d0c1c4ffbf13bc2b8f867.js"
+  "/seattlefoodbankfinder/precache-manifest.d3a054b29b61778f5fe6b46ee1eceee6.js"
 );
 
 workbox.clientsClaim();
