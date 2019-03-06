@@ -12,8 +12,7 @@ const Home = () => {
                     <div class="row h-100 align-items-center justify-content-center text-center">
                         <div class="col-lg-10 align-self-end">
                             <h1 class="text-uppercase text-white font-weight-bold">
-                                SEATTLE FOOD BANK FINDER
-                        </h1>
+                                SEATTLE FOOD BANK FINDER</h1>
                         </div>
                         <div class="col-lg-8 align-self-baseline">
                             <h4 class="text-white-75 font-weight-light py-5 text-white">
