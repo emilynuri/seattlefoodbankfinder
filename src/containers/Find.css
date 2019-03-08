@@ -2,3 +2,121 @@
     min-height: 100vh;
     margin-top: 5rem;
 }
+#foodbank-map
+{
+    width: 100%;
+}
+#foodbankfinder
+{
+    width: 100%;
+}
+#foodbankfinder-heading
+{
+    width: 100%; 
+    font-weight: bold;
+}
+#foodbankfinder-body
+{
+    width: 100%;
+    display: flex;
+}
+#foodbankfinder-filter
+{
+    width:30%;
+    padding: 0.5em; 
+}
+#foodbankfinder-filter .filter-type-name
+{
+    font-weight: bold;
+}
+#foodbankfinder-filter .filter-options
+{
+    border:1px solid lightgrey;
+    padding: 2px;
+}
+#foodbankfinder-map
+{
+    width:40%;
+    padding: 0.5em; 
+}
+#foodbankfinder-map-heading
+{
+    width: 100%;
+    background: lightgrey !important;
+    color:green;
+    padding-left: 0.5em;
+}
+#foodbankfinder-map-view
+{
+    width: 100%;
+}
+#foodbankfinder-map-view > div
+{
+    position: relative !important;
+}
+#foodbankfinder-list
+{
+    width:30%;
+    padding: 0.5em; 
+    padding-top:1.5em;
+}
+#foodbankfinder-list #foodbankfinder-list-result
+{
+    width:100%;
+    height: 300px;
+    overflow-y: auto;
+    background-color: #f3f3f3;
+}
+#foodbankfinder-list #foodbankfinder-list-result .foodbankfinder-filtered-list-item
+{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+#foodbankfinder-list #foodbankfinder-list-result .foodbankfinder-filtered-list-item:hover{
+    background: #d9d9d9;
+}
+#foodbankfinder-list #foodbankfinder-list-item
+{
+    width:100%;
+    padding: 1em;
+    padding-top: 2em;
+}
+#foodbankfinder-selected-item-name
+{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.grey-text
+{
+    color: grey;
+}
+#foodbankfinder-selected-item-daytime span, #foodbankfinder-selected-item-meal_served span, #foodbankfinder-selected-item-people_served span{
+    margin-left:2em;
+}
+#foodbankfinder-selected-item-contact
+{
+    text-align: center;
+}
+#foodbankfinder-selected-item-contact p{
+    margin-bottom: 0;
+}
+.filter-type-name
+{
+    margin:0;
+    margin-top: 1em;
+}
+.filter-options li
+{
+    list-style-type: none;
+    font-weight: 600;
+    padding-left: 0.5em;
+}
+#filter-people-options, #filter-location-options, #filter-daytime-options
+{
+    height: 150px;
+    overflow-y: auto;
+}
