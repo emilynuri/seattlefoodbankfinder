@@ -1,21 +1,46 @@
 .page-community {
     min-height: 100vh;
     margin-top: 5rem;
+    display: block;
 }
 
+.community-content{
+  width: 100%;
+}
 
 
 .community-header h1{
   margin-top: 10px;
   text-align: center;
+  display: block;
 }
 
 
 .community-header h6{
   text-align: center;
-  padding-left: 350px;
-  padding-right: 350px;
+  padding-left: 330px;
+  padding-right: 330px;
   padding-top: 15px;
   color: #808080;
   line-height: 1.6;
+}
+
+.community-bottom{
+  display: block;
+  width: 100%;
+}
+
+
+.slideshow-container img{
+  width: 100%;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  display: block;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
