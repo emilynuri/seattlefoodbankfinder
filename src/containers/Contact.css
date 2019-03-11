@@ -6,14 +6,15 @@
 
 .contact-content{
   width: 100%;
-  padding-bottom: 250px;
+  padding-bottom: 150px;
 }
 
 
 .contact-top-content{
   display: block;
-  width: 30%;
+  width: 35%;
   margin: 0 auto;
+  padding-bottom: 10px;
   }
 
 .contact-top-content h1 {
@@ -35,7 +36,6 @@
   background-color: #E0E0E0;
   width: 100%;
   padding-top: 20px;
-  margin-bottom: 50px;
 }
 
 

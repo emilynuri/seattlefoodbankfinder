@@ -23,7 +23,7 @@
 #foodbankfinder-filter
 {
     width:30%;
-    padding: 0.5em;
+    padding: .5em;
 }
 #foodbankfinder-filter .filter-type-name
 {
@@ -32,7 +32,7 @@
 #foodbankfinder-filter .filter-options
 {
     border:1px solid lightgrey;
-    padding: 2px;
+    padding: 5px;
 }
 #foodbankfinder-map
 {
@@ -95,9 +95,9 @@
     color: grey;
 }
 #foodbankfinder-selected-item-daytime span, #foodbankfinder-selected-item-meal_served span, #foodbankfinder-selected-item-people_served span{
-    margin-left:.25em;
-
+    margin-left:.35em;
 }
+
 #foodbankfinder-selected-item-contact
 {
     text-align: center;
@@ -114,7 +114,7 @@
 {
     list-style-type: none;
     font-weight: 600;
-    padding-left: 0.5em;
+    padding-left: 0.3em;
 }
 #filter-people-options, #filter-location-options, #filter-daytime-options
 {

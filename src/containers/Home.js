@@ -37,7 +37,7 @@ const Home = () => {
                         </p>
                     </div>
                     <div class="col-md-6">
-                        <img class="w-75" src="imgs/bg-foodbank.jpg" />
+                        <img class="w-75" src="imgs/bg-foodbank.jpg" alt="two people working at a food bank"/>
                     </div>
                 </div>
 
