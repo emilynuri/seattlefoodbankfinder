@@ -6,13 +6,14 @@
 
 .contact-content{
   width: 100%;
-  padding-bottom: 500px;
+  padding-bottom: 250px;
 }
 
 
 .contact-top-content{
   display: block;
-  width: 100%;
+  width: 30%;
+  margin: 0 auto;
   }
 
 .contact-top-content h1 {
@@ -22,8 +23,7 @@
 
 .contact-top-content h6 {
     text-align: center;
-    padding-left: 350px;
-    padding-right: 350px;
+    text-align: center;
     padding-top: 15px;
     color: #808080;
     padding-bottom: 30px;
@@ -35,6 +35,7 @@
   background-color: #E0E0E0;
   width: 100%;
   padding-top: 20px;
+  margin-bottom: 50px;
 }
 
 
@@ -43,6 +44,10 @@
   width: 48%;
   margin-bottom: 30px;
   height: 50px !important;
+}
+
+.contact-form label{
+  width: 48%;
 }
 
 .contact-form {

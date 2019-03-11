@@ -18,12 +18,12 @@
 
 .community-header h6{
   text-align: center;
-  padding-left: 330px;
-  padding-right: 330px;
   padding-top: 15px;
   color: #808080;
   line-height: 1.6;
   padding-bottom: 120px;
+  width: 40%;
+  margin: 0 auto;
 }
 
 .community-bottom{

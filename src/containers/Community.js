@@ -19,14 +19,18 @@ class Community extends React.Component {
       activeItemIndex: 0,
     });
 
+    this.images = [slide1, slide2, slide3, slide1, slide2];
+
+
     setTimeout(() => {
       this.setState({
         children: this.createChildren(5),
+
       })
     }, 100);
   }
 
-    createChildren = n => range(n).map(i => <div key={i} style={{ height: 200, background: '#333'}}>{i}</div>);
+    createChildren = n => range(n).map(i => <div key={i} style={{ height: 200, background: '#333'}}><img src={ this.images[this.state.activeItemIndex] }/></div>);
 
     changeActiveItem = (activeItemIndex) => this.setState({ activeItemIndex });
 
@@ -35,6 +39,7 @@ class Community extends React.Component {
     const {
       activeItemIndex,
       children,
+      images,
     } = this.state;
 
     return (
@@ -71,10 +76,12 @@ class Community extends React.Component {
                     activeItemIndex={activeItemIndex}
                     activePosition={'center'}
 
+
                     chevronWidth={24}
                     rightChevron={'>'}
                     leftChevron={'<'}
-                    outsideChevron={false}
+                    outsideChevron={true}
+
                     >
                     {children}
                     </ItemsCarousel>

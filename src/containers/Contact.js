@@ -16,11 +16,16 @@ const Contact = () => {
                       </div>
                       <div class ="contact-bottom-content">
                         <form class="contact-form">
-                          <input type="text" placeholder="First Name"/>
-                          <input type="text"placeholder="Last Name"/>
-                          <input type="text" placeholder="Email"/>
-                          <input type="text" placeholder="Subject"/>
-                          <textarea rows="4" cols="50" placeholder="Write your message here..."/>
+                        <label for="fname">First Name</label>
+                        <label for="lname">Last Name</label>
+                        <input type="text" placeholder="First Name"/>
+                        <input type="text"placeholder="Last Name"/>
+                        <label for="email">Email</label>
+                        <label for="subject">Subject</label>
+                        <input type="text" placeholder="Email"/>
+                        <input type="text" placeholder="Subject"/>
+                        <label for="message">Write your message below</label>
+                        <textarea rows="4" placeholder="Write your message here..."/>
                           <input type="submit" value="SUBMIT" class="submit-button"/>
                         </form>
                       </div>
