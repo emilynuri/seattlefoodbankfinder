@@ -73,7 +73,7 @@ const Home = () => {
                             CONTACT
     </h4>
                         <p>
-                            Help us spread the word and follow us on Facebook, Twitter, and Instagram
+                            Help us spread the word and follow us on Facebook, Twitter and Instagram
     </p>
                     </div>
                 </div>
