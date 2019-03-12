@@ -23,7 +23,7 @@ const Contact = () => {
                         <label for="email">Email</label>
                         <label for="subject">Subject</label>
                         <input type="text" placeholder=" username@email.com"/>
-                        <input type="text" placeholder=" food bank inquerie"/>
+                        <input type="text" placeholder=" ex. food bank serving kids"/>
                         <label for="message">Write your message below</label>
                         <textarea rows="4" placeholder=" Write your message here..."/>
                           <input type="submit" value="SUBMIT" class="submit-button"/>
