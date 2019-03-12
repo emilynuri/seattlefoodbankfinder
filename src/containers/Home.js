@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Navigation from '../components/Navigation';
+import slide5 from "../assets/imgs/img5.jpg";
 
 const Home = () => {
 
@@ -37,7 +38,7 @@ const Home = () => {
                         </p>
                     </div>
                     <div class="col-md-6">
-                        <img class="w-75" src="imgs/bg-foodbank.jpg" alt="two people working at a food bank"/>
+                        <img class="w-75" src={slide5} alt="two people working at a food bank"/>
                     </div>
                 </div>
 

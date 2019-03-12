@@ -32,7 +32,7 @@
 #foodbankfinder-filter .filter-options
 {
     border:1px solid lightgrey;
-    padding: 5px;
+    padding: 3px;
 }
 #foodbankfinder-map
 {
@@ -113,8 +113,8 @@
 .filter-options li
 {
     list-style-type: none;
-    font-weight: 600;
-    padding-left: 0.3em;
+    font-weight: 300;
+    padding-left: 5px;
 }
 #filter-people-options, #filter-location-options, #filter-daytime-options
 {

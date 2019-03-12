@@ -6,6 +6,10 @@ import range from 'lodash/range';
 import slide1 from "../assets/imgs/img1.jpg";
 import slide2 from "../assets/imgs/img2.jpg";
 import slide3 from "../assets/imgs/img3.jpg";
+import slide4 from "../assets/imgs/img4.jpg";
+import slide5 from "../assets/imgs/img5.jpg";
+import slide6 from "../assets/imgs/img6.jpg";
+import slide7 from "../assets/imgs/img7.jpg";
 
 
 class Community extends React.Component {
@@ -19,18 +23,18 @@ class Community extends React.Component {
       activeItemIndex: 0,
     });
 
-    this.images = [slide1, slide2, slide3, slide1, slide2];
+    this.images = [slide1, slide2, slide3, slide4, slide5, slide6, slide7];
 
 
     setTimeout(() => {
       this.setState({
-        children: this.createChildren(5),
+        children: this.createChildren(7),
 
       })
     }, 100);
   }
 
-    createChildren = n => range(n).map(i => <div key={i} style={{ height: 200, background: '#333'}}><img src={ this.images[this.state.activeItemIndex] }/></div>);
+    createChildren = n => range(n).map(i => <div key={i} style={{ height: 200, background: '#333'}}><img src={ this.images[i] }/></div>);
 
     changeActiveItem = (activeItemIndex) => this.setState({ activeItemIndex });
 

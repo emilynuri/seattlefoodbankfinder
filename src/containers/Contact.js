@@ -18,12 +18,12 @@ const Contact = () => {
                         <form class="contact-form">
                         <label for="fname">First Name</label>
                         <label for="lname">Last Name</label>
-                        <input type="text" placeholder="First Name"/>
-                        <input type="text"placeholder="Last Name"/>
+                        <input type="text" placeholder="John"/>
+                        <input type="text"placeholder="Doe"/>
                         <label for="email">Email</label>
                         <label for="subject">Subject</label>
-                        <input type="text" placeholder="Email"/>
-                        <input type="text" placeholder="Subject"/>
+                        <input type="text" placeholder="username@email.com"/>
+                        <input type="text" placeholder="Filtering Food Banks im Oregon?"/>
                         <label for="message">Write your message below</label>
                         <textarea rows="4" placeholder="Write your message here..."/>
                           <input type="submit" value="SUBMIT" class="submit-button"/>
