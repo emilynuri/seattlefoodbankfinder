@@ -34,7 +34,7 @@ class Community extends React.Component {
     }, 100);
   }
 
-    createChildren = n => range(n).map(i => <div key={i} style={{ height: 200, background: '#333'}}><img src={ this.images[i] }/></div>);
+    createChildren = n => range(n).map(i => <div key={i} style={{ height: 200, background: '#333'}}><img src={ this.images[i]}/></div>);
 
     changeActiveItem = (activeItemIndex) => this.setState({ activeItemIndex });
 
